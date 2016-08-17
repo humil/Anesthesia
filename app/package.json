@@ -4,6 +4,7 @@
   "description": "",
   "main": "webpack.config.js",
   "dependencies": {
+    "foundation-sites": "^6.2.3",
     "react": "^0.14.6",
     "react-dom": "^0.14.6"
   },

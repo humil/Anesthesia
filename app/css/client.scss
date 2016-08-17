@@ -1,4 +1,4 @@
-$maincolor: #111;
-body {
-  background-color: $maincolor;
-}
+@import 'foundation.settings';
+@import 'foundation';
+
+@include foundation-everything;

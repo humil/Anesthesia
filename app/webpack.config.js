@@ -34,6 +34,9 @@ module.exports = {
       }
     ]
   },
+  sassLoader: {
+    includePaths: [path.resolve(__dirname, "./node_modules/foundation-sites/scss")]
+  },
   output: {
     path: __dirname,
     filename: "./[name].min.js"
